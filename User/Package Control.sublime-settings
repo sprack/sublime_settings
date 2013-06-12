@@ -1,0 +1,8 @@
+{
+	"installed_packages":
+	[
+		"Chef",
+		"Package Control",
+		"Pretty JSON"
+	]
+}

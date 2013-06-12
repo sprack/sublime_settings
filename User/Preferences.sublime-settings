@@ -1,0 +1,18 @@
+{
+	"color_scheme": "Packages/Color Scheme - Default/All Hallow's Eve.tmTheme",
+	"drawWhiteSpace": "none",
+	"draw_white_space": "all",
+	"draw_indent_guides": true,
+	"font_face": "Anonymous Pro",
+	"font_size": 12.0,
+	"ignored_packages":
+	[
+		"Vintage",
+		"BracketHighlighter"
+	],
+	"indent_to_bracket": true,
+	"indent_guide_options": ["draw_normal", "draw_active"],
+	"tab_size": 3,
+	"translateSpacesToTabs": false,
+	"translate_tabs_to_space": true
+}
