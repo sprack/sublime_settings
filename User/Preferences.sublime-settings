@@ -5,7 +5,7 @@
 	"draw_indent_guides": true,
 	"draw_white_space": "all",
 	"font_face": "Anonymous Pro",
-	"font_size": 12.0,
+	"font_size": 13.0,
 	"ignored_packages":
 	[
 		"Vintage",
@@ -25,5 +25,8 @@
 	"tab_size": 2,
 	"translateSpacesToTabs": false,
 	"translate_tabs_to_space": true,
-	"detect_indentation": false
+	"detect_indentation": false,
+	"ensure_newline_at_eof_on_save": true,
+	"trim_trailing_white_space_on_save": true,
+	"highlight_line": true
 }
