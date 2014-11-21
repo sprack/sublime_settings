@@ -24,7 +24,7 @@
 		80,
 		120
 	],
-	"tab_size": 2,
+	"tab_size": 4,
 	"translateSpacesToTabs": false,
 	"translate_tabs_to_space": true,
 	"detect_indentation": false,
