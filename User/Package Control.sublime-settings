@@ -1,9 +1,13 @@
 {
+	"in_process_packages":
+	[
+	],
 	"installed_packages":
 	[
 		"Chef",
 		"GitGutter",
 		"Limebox",
+		"Open",
 		"Package Control",
 		"Pretty JSON",
 		"Python Improved"

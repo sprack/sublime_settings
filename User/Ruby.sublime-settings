@@ -1,0 +1,8 @@
+{
+	"tab_size": 2,
+	"trim_trailing_white_space_on_save": true,
+	"extensions":
+	[
+		"Vagrantfile"
+	]
+}
