@@ -6,14 +6,9 @@
 	[
 		"Chef",
 		"GitGutter",
-		"Limebox",
 		"Open",
 		"Package Control",
 		"Pretty JSON",
 		"Python Improved"
-	],
-	"repositories":
-	[
-		"http://home.fburl.com/~frantic/limebox/repositories.json"
 	]
 }
