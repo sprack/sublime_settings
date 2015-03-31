@@ -6,9 +6,16 @@
 	"draw_indent_guides": true,
 	"draw_white_space": "all",
 	"ensure_newline_at_eof_on_save": true,
+	"fade_fold_buttons": false,
+	"caret_style": "solid",
+	"caret_extra_bottom": 4,
+	"caret_extra_top": 4,
+	"caret_extra_width": 1,
+	"wide-caret": true,
 	"font_face": "AnonymousPro",
-	"font_size": 13.0,
+	"font_size": 12.0,
 	"highlight_line": true,
+	"bh_toggle_enable": true,
 	"ignored_packages":
 	[
 		"BracketHighlighter",
@@ -24,12 +31,6 @@
 	[
 		120
 	],
-	"tab_size": 4,
-	"translateSpacesToTabs": false,
-	"translate_tabs_to_space": true,
-	"detect_indentation": false,
-	"ensure_newline_at_eof_on_save": true,
-	"trim_trailing_white_space_on_save": true,
-	"highlight_line": true,
+	"tab_size": 2,
 	"trim_trailing_white_space_on_save": true
 }
