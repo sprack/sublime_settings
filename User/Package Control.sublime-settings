@@ -4,11 +4,17 @@
 	],
 	"installed_packages":
 	[
+		"BracketHighlighter",
 		"Chef",
 		"GitGutter",
+		"Markdown Extended",
+		"Monokai Extended",
+		"nginx",
 		"Open",
 		"Package Control",
+		"PackageResourceViewer",
 		"Pretty JSON",
-		"Python Improved"
+		"Python Improved",
+		"RAML Syntax Highlighter"
 	]
 }
