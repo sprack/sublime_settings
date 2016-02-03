@@ -1,0 +1,9 @@
+<snippet>
+	<description>rewrites Snippet</description>
+	<content><![CDATA[
+'rewrites': {'\{${1:}\}': ''${2:, '': ''}}
+]]>
+	</content>
+	<tabTrigger>rewrites</tabTrigger>
+	<!-- <scope>source.PythonImproved</scope> -->
+</snippet>

@@ -1,0 +1,152 @@
+[
+
+    /*
+        // Tab set
+    {
+        "class": "tabset_control",
+        "layer0.inner_margin": [1, 7],
+        "layer0.opacity": 1.0,
+        "content_margin": [-4, 0, -4, 3],
+        "tab_overlap": 5,
+        "tab_width": 180,
+        "tab_min_width": 45,
+        "tab_height": 25,
+        "mouse_wheel_switch": false
+    },
+    {
+        "class": "tabset_control",
+        "settings": ["enable_tab_scrolling"],
+        "content_margin": [3, 0, 3, 3]
+    },
+    {
+        "class": "tabset_control",
+        "settings": ["mouse_wheel_switches_tabs"],
+        "mouse_wheel_switch": true
+    },
+    // Tab element
+    {
+        "class": "tab_control",
+        "content_margin": [12, 3, 12, 3],
+        "max_margin_trim": 0,
+        "hit_test_level": 0.0,
+        "layer0.inner_margin": [5, 5],
+        "layer0.opacity": 1.0
+    },
+    // Tab close state
+    {
+        "class": "tab_control",
+        "settings": ["show_tab_close_buttons"],
+        "content_margin": [12, 3, 7, 3]
+    },
+    // Tab hover state
+    {
+        "class": "tab_control",
+        "attributes": ["hover"],
+    },
+    // Tab active state
+    {
+        "class": "tab_control",
+        "attributes": ["selected"],
+    },
+    // Tab dirty state (close button hidden)
+    {
+        "class": "tab_control",
+        "settings": ["!show_tab_close_buttons"],
+        "attributes": ["dirty"],
+        "content_margin": [12, 3, 7, 3]
+    },
+    */
+
+
+    // Sidebar container
+    {
+        "class": "sidebar_container",
+        // "layer0.texture": "Theme - Soda/Soda Dark/sidebar-bg.png",
+        "layer0.tint": [255, 255, 255],
+        "layer0.opacity": 1.0,
+        "layer0.inner_margin": [1, 1, 2, 1],
+        "content_margin": [0, 0, 1, 0]
+    },
+    // Sidebar tree
+    {
+        "class": "sidebar_tree",
+        "layer0.tint": [0, 0, 0],
+        "row_padding": [8, 3],
+        "indent": 15,
+        "indent_offset": 15,
+        "indent_top_level": false,
+        "dark_content": true
+    },
+    // Sidebar rows
+    {
+        "class": "tree_row",
+        // "layer0.texture": "Theme - Soda/Soda Dark/sidebar-row-selected.png",
+        "layer0.opacity": 0.0,
+        "layer0.inner_margin": [1, 1]
+    },
+    // Sidebar row selected
+    {
+        "class": "tree_row",
+        "attributes": ["selected"],
+        "layer0.opacity": 1.0,
+        "layer0.tint": [0,255,0]
+    },
+    // Sidebar heading
+    {
+        "class": "sidebar_heading",
+        "color": [255, 255, 0],
+        "font.bold": true,
+        "shadow_color": [0, 0, 0],
+        "shadow_offset": [0, -1]
+    },
+    // Sidebar heading selected
+    {
+        "class": "sidebar_heading",
+        "parents": [{"class": "tree_row", "attributes": ["selected"]}],
+        "shadow_offset": [0, 1]
+    },
+    // Sidebar entry
+    {
+        "class": "sidebar_label",
+        "color": [240, 240, 240],
+        "shadow_color": [0, 0, 0],
+        "shadow_offset": [0, -1],
+        "font.face": "Verdana",
+        "font.size": 13,
+        "font.bold": false,
+        "font.italic": false
+    },
+    // Sidebar folder entry
+    {
+        "class": "sidebar_label",
+        "parents": [{"class": "tree_row", "attributes": ["expandable"]}],
+        "color": [190, 190, 190]
+    },
+    {
+        "class": "sidebar_label",
+        "parents": [{"class": "tree_row", "attributes": ["expandable", "hover"]}],
+        "color": [235, 235, 235]
+    },
+    {
+        "class": "sidebar_label",
+        "parents": [{"class": "tree_row", "attributes": ["expandable"]}],
+        "settings": ["bold_folder_labels"],
+        "font.bold": true
+    },
+    // Sidebar entry selected
+    {
+        "class": "sidebar_label",
+        "parents": [{"class": "tree_row", "attributes": ["selected"]}],
+        "color": [0, 0, 0],
+        "font.size": 15,
+        "shadow_color": [0, 0, 0],
+        "shadow_offset": [0, 0]
+    },
+    // Sidebar entry transient
+    {
+        "class": "sidebar_label",
+        "attributes": ["transient"],
+        "font.italic": true
+    },
+
+]

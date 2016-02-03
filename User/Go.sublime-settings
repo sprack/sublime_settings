@@ -1,0 +1,8 @@
+{
+	"extensions":
+	[
+		"go"
+	],
+	"tab_size": 3,
+	"color_scheme": "Packages/User/Neon Color Scheme/Neon.tmTheme"
+}

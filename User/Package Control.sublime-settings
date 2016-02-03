@@ -1,4 +1,5 @@
 {
+	"bootstrapped": true,
 	"in_process_packages":
 	[
 	],
@@ -6,15 +7,18 @@
 	[
 		"BracketHighlighter",
 		"Chef",
+		"Dockerfile Syntax Highlighting",
 		"GitGutter",
 		"Markdown Extended",
 		"Monokai Extended",
+		"Neon Color Scheme",
 		"nginx",
 		"Open",
 		"Package Control",
 		"PackageResourceViewer",
 		"Pretty JSON",
 		"Python Improved",
-		"RAML Syntax Highlighter"
+		"RAML Syntax Highlighter",
+		"Table Editor"
 	]
 }

@@ -1,0 +1,9 @@
+<snippet>
+	<description>godbg Snippet</description>
+	<content><![CDATA[
+fmt.Printf("JNA - %s - %s\n\t§%s${1:\n\t§%s}${2:\n\t§%s}${3:\n\t§%s}\n", r.Method, r.RequestURI, )		// JNA
+]]>
+	</content>
+	<tabTrigger>godbg</tabTrigger>
+	<!-- <scope>source.Go</scope> -->
+</snippet>

@@ -1,0 +1,15 @@
+<snippet>
+	<description>crunk Snippet</description>
+	<content><![CDATA[
+def ${1:api}(self, debug=False, apiGrp='${1:api}', base='/api'):
+    self.seAPI[apiGrp] = {}
+    actList = [
+        {'url': ''${2:, 'body': 'json'}${3:, 'rewrites': \{'': ''\}}${4:, 'urlparam': '': ''}},
+    ]
+    self.doAction(base, self.method, apiGrp, actList, debug)
+    return self.seAPI
+]]>
+	</content>
+	<tabTrigger>crunk</tabTrigger>
+	<!-- <scope>source.PythonImproved</scope> -->
+</snippet>
