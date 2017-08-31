@@ -5,10 +5,14 @@
 	],
 	"installed_packages":
 	[
+		"Ansible",
 		"BracketHighlighter",
 		"Chef",
 		"Dockerfile Syntax Highlighting",
+		"EasyDiff",
 		"GitGutter",
+		"InsertDate",
+		"JsonTree",
 		"Markdown Extended",
 		"Monokai Extended",
 		"Neon Color Scheme",
@@ -19,6 +23,10 @@
 		"Pretty JSON",
 		"Python Improved",
 		"RAML Syntax Highlighter",
-		"Table Editor"
+		"rsub",
+		"SublimeCodeIntel",
+		"Table Editor",
+		"Terraform",
+		"ZSH"
 	]
 }

@@ -30,20 +30,20 @@
 				<key>selectionBorder</key>
 				<string>#FF9900</string>
 				<key>findHighlight</key>
-        <string>#FFE792</string>
+		<string>#FFE792</string>
 
 				<key>bracketsForeground</key>
-        <string>#FF0066</string>
-        <key>bracketsOptions</key>
-        <string>underline</string>
+		<string>#FF0066</string>
+		<key>bracketsOptions</key>
+		<string>underline</string>
 
-        <key>bracketContentsForeground</key>
-        <string>#FF0066</string>
-        <key>bracketContentsOptions</key>
-        <string>underline</string>
+		<key>bracketContentsForeground</key>
+		<string>#FF0066</string>
+		<key>bracketContentsOptions</key>
+		<string>underline</string>
 
-        <key>tagsOptions</key>
-        <string>stippled_underline</string>
+		<key>tagsOptions</key>
+		<string>stippled_underline</string>
 			</dict>
 		</dict>
 		<dict>
@@ -295,6 +295,66 @@
 				<string></string>
 				<key>foreground</key>
 				<string>#C83730</string>
+			</dict>
+		</dict>
+		<dict>
+			<key>name</key>
+			<string>diff header from</string>
+			<key>scope</key>
+			<string>meta.diff.header.from-file</string>
+			<key>settings</key>
+			<dict>
+				<key>background</key>
+				<string>#FFDDDD</string>
+				<key>fontStyle</key>
+				<string></string>
+				<key>foreground</key>
+				<string>#000000</string>
+			</dict>
+		</dict>
+		<dict>
+			<key>name</key>
+			<string>diff header to</string>
+			<key>scope</key>
+			<string>meta.diff.header.to-file</string>
+			<key>settings</key>
+			<dict>
+				<key>background</key>
+				<string>#DDFFDD</string>
+				<key>fontStyle</key>
+				<string></string>
+				<key>foreground</key>
+				<string>#000000</string>
+			</dict>
+		</dict>
+		<dict>
+			<key>name</key>
+			<string>diff inserted</string>
+			<key>scope</key>
+			<string>markup.inserted.diff</string>
+			<key>settings</key>
+			<dict>
+				<key>background</key>
+				<string>#DDFFDD</string>
+				<key>fontStyle</key>
+				<string></string>
+				<key>foreground</key>
+				<string>#000000</string>
+			</dict>
+		</dict>
+		<dict>
+			<key>name</key>
+			<string>diff deleted</string>
+			<key>scope</key>
+			<string>markup.deleted.diff</string>
+			<key>settings</key>
+			<dict>
+				<key>background</key>
+				<string>#FFDDDD</string>
+				<key>fontStyle</key>
+				<string></string>
+				<key>foreground</key>
+				<string>#000000</string>
 			</dict>
 		</dict>
 	</array>

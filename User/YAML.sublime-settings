@@ -1,4 +1,12 @@
 {
+	"extensions":
+	[
+		"yml",
+		"yaml",
+		"yml.in",
+		"yaml.in",
+		"in"
+	],
 	"tab_size": 2,
 	"translate_tabs_to_spaces": true
 }
